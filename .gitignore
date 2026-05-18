@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Django
+db.sqlite3
+*.log
+*.pot
+*.pyc
+local_settings.py
+migrations/
+!leads/migrations/__init__.py
+
+# Media & Static
+media/
+staticfiles/
+static/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Reports
+media/reports/*.pdf
+
+# Logs
+logs/
+*.log
+
+# Secrets
+*.key
+*.pem

@@ -1,0 +1,31 @@
+# Core Framework
+Django==5.0.3
+celery==5.3.4
+redis==5.0.1
+
+# HTTP & Web Scraping
+requests==2.31.0
+beautifulsoup4==4.12.3
+
+# PDF Generation
+reportlab==4.1.0
+
+# Django Utilities
+django-htmx==1.17.0
+python-dotenv==1.0.1
+
+# Database (for production)
+psycopg2-binary==2.9.9
+
+# Celery Extras (for scheduled tasks - optional)
+django-celery-beat==2.6.0
+django-celery-results==2.5.1
+
+# Dependencies (automatically installed)
+asgiref==3.11.1
+sqlparse==0.5.5
+tzdata==2026.2
+click==8.4.0
+kombu==5.6.2
+vine==5.1.0
+billiard==4.2.4

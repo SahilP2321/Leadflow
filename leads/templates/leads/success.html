@@ -1,0 +1,25 @@
+<div class="bg-green-50 border-l-4 border-green-500 rounded-lg p-6 shadow-lg">
+    <div class="flex items-center mb-4">
+        <div class="bg-green-500 rounded-full p-2 mr-4">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+        </div>
+        <div>
+            <h3 class="text-xl font-bold text-green-800">Lead Successfully Submitted!</h3>
+            <p class="text-green-700">Your personalized report is being generated.</p>
+        </div>
+    </div>
+    
+    <div class="bg-blue-50 rounded-lg p-4 mb-4">
+        <p class="text-blue-800 text-sm">⏳ Processing status updates every 3 seconds...</p>
+    </div>
+    
+    <div hx-get="/lead-status/{{ lead.id }}/" 
+         hx-trigger="every 3s" 
+         hx-target="#statusUpdate"
+         hx-swap="innerHTML">
+    </div>
+    
+    <div id="statusUpdate"></div>
+</div>
