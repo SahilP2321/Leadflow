@@ -54,3 +54,5 @@ logs/
 # Secrets
 *.key
 *.pem
+
+dump.rdb
