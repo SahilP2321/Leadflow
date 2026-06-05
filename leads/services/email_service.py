@@ -25,13 +25,13 @@ class EmailService:
         <body>
             <div class="container">
                 <div class="header">
-                    <h1>SimplifIQ Automation</h1>
+                    <h1>LeadFlow Automation</h1>
                     <p>Strategic Business Intelligence</p>
                 </div>
                 <div class="content">
                     <h2>Dear {recipient_name},</h2>
                     
-                    <p>Thank you for requesting a business audit through SimplifIQ. Based on your submission, we've prepared a comprehensive strategic report for your organization.</p>
+                    <p>Thank you for requesting a business audit through LeadFlow. Based on your submission, we've prepared a comprehensive strategic report for your organization.</p>
                     
                     <div class="insight">
                         <strong>📊 Report Highlights:</strong><br>
@@ -44,13 +44,13 @@ class EmailService:
                     
                     <p>Your personalized report is attached to this email. This document provides actionable insights and recommendations tailored to your business needs.</p>
                     
-                    <p style="margin-top: 25px;">We look forward to discussing how SimplifIQ can help accelerate your growth.</p>
+                    <p style="margin-top: 25px;">We look forward to discussing how LeadFlow can help accelerate your growth.</p>
                     
                     <p>Best regards,<br>
-                    <strong>SimplifIQ Intelligence Team</strong></p>
+                    <strong>LeadFlow Intelligence</strong></p>
                 </div>
                 <div class="footer">
-                    <p>© 2024 SimplifIQ Automation | Confidential Business Report</p>
+                    <p>© 2024 LeadFlow Automation | Confidential Business Report</p>
                     <p>This is an automated message, please do not reply directly.</p>
                 </div>
             </div>
@@ -68,7 +68,7 @@ class EmailService:
         
         if os.path.exists(report_path):
             with open(report_path, 'rb') as f:
-                email.attach(f"SimplifIQ_Report_{recipient_name}.pdf", f.read(), 'application/pdf')
+                email.attach(f"LeadFlow_Report_{recipient_name}.pdf", f.read(), 'application/pdf')
         
         email.send()
         return True

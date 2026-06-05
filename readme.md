@@ -1,4 +1,4 @@
-# 🚀 SimplifIQ Lead Automation System
+# 🚀 LeadFlow Automation System
 
 <div align="center">
 
@@ -31,7 +31,7 @@
 
 # 📌 Overview
 
-SimplifIQ Lead Automation is a fully automated lead management and business audit platform built using Django, Celery, Redis, and intelligent web scraping workflows.
+LeadFlow Automation is a fully automated lead management and business audit platform built using Django, Celery, Redis, and intelligent web scraping workflows.
 
 The system captures lead information, enriches company data by scraping public business websites, generates professional PDF audit reports, and automatically emails them to prospects — all without manual intervention.
 
@@ -145,7 +145,7 @@ Frontend Status Update
 # 📂 Project Structure
 
 ```text
-simplifiq-automation/
+LeadFlow-automation/
 │
 ├── lead_automation/          # Django project settings
 │   ├── settings.py
@@ -182,9 +182,9 @@ simplifiq-automation/
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/simplifiq-automation.git
+git clone https://github.com/SahilP2321/Leadflow.git
 
-cd simplifiq-automation
+cd LeadFlow-automation
 ```
 
 ---
